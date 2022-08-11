@@ -1,0 +1,18 @@
+env: VRP
+
+env_args:
+  filename: src/test.csv
+  size: 30
+  num_samples: 10
+  offset: 0
+  seed_value: [1,2,3,4,5,6,7,8,9,10]
+  distribution: null
+  index: 0
+
+test_greedy: True
+test_nepisode: 32
+test_interval: 2000
+log_interval: 2000
+runner_log_interval: 2000
+learner_log_interval: 2000
+t_max: 150000
